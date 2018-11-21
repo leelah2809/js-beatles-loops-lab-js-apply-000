@@ -47,22 +47,20 @@ for (let i= 0; i < musicians.length;i++) {
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice"]);
         
-        function iLoveTheBeatles(digit){
-          var no = [];
-          
-          
-          let info = 'I love the Beatles!';
-          
-          do{ let i = 1; 
-            no.push(info);
-             i = digit + 1;
+        function iLoveTheBeatles(num){
+          let info = 'I love the Beatles!'
+          let newArray = ['I love the Beatles!'];
+        
+          do{ 
+            console.log (newArray);
+            num++;
             
           }
-            while (digit < 15);
+            while (num < 15);
            
-          return no;
+          console.log(newArray.push(info));
         }
-         digit = 7;
-        iLoveTheBeatles(digit);
+         num = 1;
+        iLoveTheBeatles(7);
         
            
