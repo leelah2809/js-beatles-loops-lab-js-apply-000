@@ -52,13 +52,14 @@ for (let i= 0; i < musicians.length;i++) {
           let newArray = ['I love the Beatles!'];
         
           do{ 
-            return (newArray);
+            console.log(newArray.push(info));
+           // return (newArray);
             num++;
             
           }
             while (num < 15);
-           
-          console.log(newArray.push(info));
+           return (newArray);
+         // console.log(newArray.push(info));
         }
          num = 1;
         iLoveTheBeatles(7);
