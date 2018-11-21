@@ -58,7 +58,7 @@ for (let i= 0; i < musicians.length;i++) {
           }
             while (num < 15);
            
-          console.log(newArray.push(info));
+          console.log(newArray.push);
         }
          num = 1;
         iLoveTheBeatles(7);
