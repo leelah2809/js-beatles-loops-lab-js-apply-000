@@ -49,7 +49,7 @@ for (let i= 0; i < musicians.length;i++) {
         
         function iLoveTheBeatles(num){
           let info = 'I love the Beatles!';
-          let newArray = ['I love the Beatles!'];
+          let newArray = [];
         
           do{ 
             console.log (newArray);
@@ -58,7 +58,7 @@ for (let i= 0; i < musicians.length;i++) {
           }
             while (num < 15);
            
-          console.log(newArray.push);
+          console.log(newArray.push(info));
         }
          num = 1;
         iLoveTheBeatles(7);
