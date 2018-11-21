@@ -48,7 +48,7 @@ for (let i= 0; i < musicians.length;i++) {
         "He hated the sound of his own voice"]);
         
         function iLoveTheBeatles(num){
-          let info = 'I love the Beatles!'
+          let info = 'I love the Beatles!';
           let newArray = ['I love the Beatles!'];
         
           do{ 
